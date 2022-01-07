@@ -1,5 +1,11 @@
 /* This files serves as a CSS checklist, check everything in here after you have done some styling! */
 
 hr {
+  /* If you give a hr a certain color (with border), say red,
+  Make sure that the background color of that hr is also red,
+  if you'll do this you'll make sure that the hr is filled in properly */
+  border: red;
+  background-color: red;
+  
   
 }
