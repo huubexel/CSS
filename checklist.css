@@ -7,5 +7,9 @@ hr {
   border: red;
   background-color: red;
   
-  
+  /* If you have multiple hr pieces in your code and they have the same css,
+  but they do not look the same. Try using border-bottom: So instead of,
+  border: 1px; Try: (this will solve a lot of the issues)*/
+  border: 0.5px;
+  border-bottom: 0.5px;
 }
