@@ -5,3 +5,10 @@ hr {
   border: 0.5px;
   border-bottom: 0.5px;
 }
+
+SVG
+/* if an .svg picture does load in on your device but not on someone elses,
+than that's probably because you do not have the right link to it, 
+say you made it on dev, and you than bring it to your live environment,
+than it still links to dev, that's why that is happening, all you have to do
+is change the source from dev to live and it should work!
