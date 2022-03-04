@@ -4,6 +4,12 @@ hr {
   border: 1px; Try: (this will solve a lot of the issues)*/
   border: 0.5px;
   border-bottom: 0.5px;
+  
+  /* Are you not sure which things have to be in here, look at another hr
+  that looks good. hr also almost always needs these 3: */
+  border-bottom: 1px solid #DFE7F1; /* a border bottom to make it more stable */
+  margin: 0.5rem 0; /* it needs a bit of a margin, how much? check it yourself */
+  border: 1px solid #a8b1bb; /* a border, which is obvious */
 }
 
 SVG
