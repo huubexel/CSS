@@ -7,3 +7,25 @@ hr {
   border: red;
   background-color: red;
 }
+
+/* @media */
+
+/* If you do something with media, make sure that you put the highest number of pixels at the top like this */
+
+@media (max-width: 1400px) {
+    .visual {
+        width: 80%
+    }
+}
+
+@media (max-width: 1000px) {
+    .visual {
+        width: 90%
+    }
+}
+
+@media (max-width: 768px) {
+    .visual {
+        width: 100%
+    }
+}
