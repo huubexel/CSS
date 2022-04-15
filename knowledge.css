@@ -38,5 +38,5 @@ distance you should always do .98px */
 Clicking on an element
 /* say you cannot click on an element always try z-index, this being on the a */
 a.element_that_you_want {
-  z-index: 999
+  z-index: 999;
 }
