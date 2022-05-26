@@ -40,3 +40,7 @@ Clicking on an element
 a.element_that_you_want {
   z-index: 999;
 }
+
+/* Meta data in header won't show up*/
+/* Say this happens, always check the source code, if it's not in the source code
+after two or three trials, than you have to do something different */
