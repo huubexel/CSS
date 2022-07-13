@@ -1,3 +1,10 @@
+/* if you look at inspect, it works as follows, the element will first take the
+CSS that is at the top of that inspect, so that means first the element.style
+and than the first thing that it finds. How do you get things higher up? Make
+it more specific by for example doing lines like this one */
+.new-wrapper div.container-new .navbar-expand-xl .bs-navbar-container ul.navbar-nav li.nav-item a.brand-css{
+}
+
 hr {  
   /* If you have multiple hr pieces in your code and they have the same css,
   but they do not look the same. Try using border-bottom: So instead of,
@@ -44,3 +51,11 @@ a.element_that_you_want {
 /* Meta data in header won't show up*/
 /* Say this happens, always check the source code, if it's not in the source code
 after two or three trials, than you have to do something different */
+
+!important
+/* The only reason you should ever use !important in your CSS is if you use a 
+javascript file from someone else that is to big to tear apart (or you just don't
+want to tear it apart) and you have to block javascript with it. For example some
+transform rules that you get from a javascript swiper */
+
+
