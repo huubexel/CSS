@@ -675,7 +675,11 @@ strong, /* This has to be set because it is different across browsers */
 }
 
 fz-14 {
-    font-size: 14px
+    font-size: 14px;
+}
+
+fz-16 {
+    font-size: 16px;
 }
 
 p {
