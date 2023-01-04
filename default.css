@@ -42,39 +42,6 @@ body { /* body */
     flex: 0 0 auto;
 }
 
-/* amount of columns */
-.row-cols-auto > * {
-    width: auto;
-}
-
-.row-cols-1 > * {
-    width: 100%;
-}
-
-.row-cols-2 > * {
-    width: 50%;
-}
-
-.row-cols-3 > * {
-    width: 33.3333333333%;
-}
-
-.row-cols-4 > * {
-    width: 25%;
-}
-
-.row-cols-5 > * {
-    width: 20%;
-}
-
-.row-cols-6 > * {
-    width: 16.6666666667%;
-}
-
-.col-auto {
-    width: auto;
-}
-
 /* column width */
 .col-1 {
     width: 8.3333333333%;
