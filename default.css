@@ -674,6 +674,10 @@ strong, /* This has to be set because it is different across browsers */
     font-weight: 900;
 }
 
+fz-14 {
+    font-size: 14px
+}
+
 p {
     font-family: inherit;
     text-rendering: optimizeLegibility;
