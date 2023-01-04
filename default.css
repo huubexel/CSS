@@ -18,30 +18,6 @@ body { /* body */
     flex-direction: column;
 }
 
-.row-cols-auto > *,
-.row-cols-1 > *,
-.row-cols-2 > *,
-.row-cols-3 > *,
-.row-cols-4 > *,
-.row-cols-5 > *,
-.row-cols-6 > *,
-.col-auto,
-.col-1,
-.col-2,
-.col-3,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
-    flex: 0 0 auto;
-}
-
 /* column width */
 .col-1 {
     width: 8.3333333333%;
@@ -674,11 +650,11 @@ strong, /* This has to be set because it is different across browsers */
     font-weight: 900;
 }
 
-fz-14 {
+.fz-14 {
     font-size: 14px;
 }
 
-fz-16 {
+.fz-16 {
     font-size: 16px;
 }
 
@@ -690,6 +666,251 @@ p {
     line-height: 1.5;
     font-size: 14px;
     font-weight: 500;
+}
+
+@media (max-width: 1399.98px) {
+    .col-xxl-1 {
+        width: 8.3333333333%;
+    }
+
+    .col-xxl-2 {
+        width: 16.6666666667%;
+    }
+
+    .col-xxl-3 {
+        width: 25%;
+    }
+
+    .col-xxl-4 {
+        width: 33.3333333333%;
+    }
+
+    .col-xxl-5 {
+        width: 41.6666666667%;
+    }
+
+    .col-xxl-6 {
+        width: 50%;
+    }
+
+    .col-xxl-7 {
+        width: 58.3333333333%;
+    }
+
+    .col-xxl-8 {
+        width: 66.6666666667%;
+    }
+    .col-xxl-9 {
+        width: 75%;
+    }
+
+    .col-xxl-10 {
+        width: 83.3333333333%;
+    }
+
+    .col-xxl-11 {
+        width: 91.6666666667%;
+    }
+
+    .col-xxl-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .col-xl-1 {
+        width: 8.3333333333%;
+    }
+
+    .col-xl-2 {
+        width: 16.6666666667%;
+    }
+
+    .col-xl-3 {
+        width: 25%;
+    }
+
+    .col-xl-4 {
+        width: 33.3333333333%;
+    }
+
+    .col-xl-5 {
+        width: 41.6666666667%;
+    }
+
+    .col-xl-6 {
+        width: 50%;
+    }
+
+    .col-xl-7 {
+        width: 58.3333333333%;
+    }
+
+    .col-xl-8 {
+        width: 66.6666666667%;
+    }
+    .col-xl-9 {
+        width: 75%;
+    }
+
+    .col-xl-10 {
+        width: 83.3333333333%;
+    }
+
+    .col-xl-11 {
+        width: 91.6666666667%;
+    }
+
+    .col-xl-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .col-l-1 {
+        width: 8.3333333333%;
+    }
+
+    .col-l-2 {
+        width: 16.6666666667%;
+    }
+
+    .col-l-3 {
+        width: 25%;
+    }
+
+    .col-l-4 {
+        width: 33.3333333333%;
+    }
+
+    .col-l-5 {
+        width: 41.6666666667%;
+    }
+
+    .col-l-6 {
+        width: 50%;
+    }
+
+    .col-l-7 {
+        width: 58.3333333333%;
+    }
+
+    .col-l-8 {
+        width: 66.6666666667%;
+    }
+    .col-l-9 {
+        width: 75%;
+    }
+
+    .col-l-10 {
+        width: 83.3333333333%;
+    }
+
+    .col-l-11 {
+        width: 91.6666666667%;
+    }
+
+    .col-l-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .col-m-1 {
+        width: 8.3333333333%;
+    }
+
+    .col-m-2 {
+        width: 16.6666666667%;
+    }
+
+    .col-m-3 {
+        width: 25%;
+    }
+
+    .col-m-4 {
+        width: 33.3333333333%;
+    }
+
+    .col-m-5 {
+        width: 41.6666666667%;
+    }
+
+    .col-m-6 {
+        width: 50%;
+    }
+
+    .col-m-7 {
+        width: 58.3333333333%;
+    }
+
+    .col-m-8 {
+        width: 66.6666666667%;
+    }
+    .col-m-9 {
+        width: 75%;
+    }
+
+    .col-m-10 {
+        width: 83.3333333333%;
+    }
+
+    .col-m-11 {
+        width: 91.6666666667%;
+    }
+
+    .col-m-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .col-s-1 {
+        width: 8.3333333333%;
+    }
+
+    .col-s-2 {
+        width: 16.6666666667%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.3333333333%;
+    }
+
+    .col-s-5 {
+        width: 41.6666666667%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.3333333333%;
+    }
+
+    .col-s-8 {
+        width: 66.6666666667%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.3333333333%;
+    }
+
+    .col-s-11 {
+        width: 91.6666666667%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
 }
 
 /* Made by Huub Exel GitHub: https://github.com/huubexel */
