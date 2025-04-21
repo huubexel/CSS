@@ -1,1 +1,3 @@
 Check both the checklist.css and knowledge.css, make sure that what is in there is true.
+Change the knowledge.css to a knowledge.md
+Move the checklist into the knowledge.css
