@@ -2,7 +2,7 @@
 CSS that is at the top of that inspect, so that means first the element.style
 and than the first thing that it finds. How do you get things higher up? Make
 it more specific by for example doing lines like this one */
-.new-wrapper div.container-new .navbar-expand-xl .bs-navbar-container ul.navbar-nav li.nav-item a.brand-css{
+.new-wrapper div.container-new .navbar-expand-xl .bs-navbar-container ul.navbar-nav li.nav-item a.brand-css {
 }
 
 hr {  
@@ -19,14 +19,14 @@ hr {
   border: 1px solid #a8b1bb; /* a border, which is obvious */
 }
 
-SVG
+/* SVG */
 /* if an .svg picture does load in on your device but not on someone elses,
 than that's probably because you do not have the right link to it, 
 say you made it on dev, and you than bring it to your live environment,
 than it still links to dev, that's why that is happening, all you have to do
 is change the source from dev to live and it should work! */
 
-@media
+/* @media */
 /* if you use media, this sounds stupid, but I always forgot this, when you use
 a minimum distance, use the hole number of pixels and when you use the maximal
 distance you should always do .98px */
@@ -42,7 +42,18 @@ distance you should always do .98px */
   }
 }
 
-Clicking on an element
+/*
+When using @media queries, you might wonder what screen sizes you can couple to the bits.
+Here is a small explanation of what devices you would couple with which kind of screen.
+- 1920px Full computer screens
+- 1200px Bigger laptops
+- 992px Small laptops
+- 768px Tablets
+- 400px Large phones
+- 270px Small phones
+*/
+
+/* Clicking on an element */
 /* say you cannot click on an element always try z-index, this being on the a */
 a.element_that_you_want {
   z-index: 999;
@@ -52,7 +63,7 @@ a.element_that_you_want {
 /* Say this happens, always check the source code, if it's not in the source code
 after two or three trials, than you have to do something different */
 
-!important
+/* !important */
 /* The only reason you should ever use !important in your CSS is if you use a 
 javascript file from someone else that is to big to tear apart (or you just don't
 want to tear it apart) and you have to block javascript with it. For example some
